@@ -1,0 +1,108 @@
+@media only screen and (max-width: 767px) {
+    header {
+        background-image: url('../images/header_mobile_01.jpg');
+        padding-top: 0px;
+    }
+
+    header .container {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .wrapper label {
+        display: none;
+    }
+
+    .arrow_mobile {
+        display: block;
+        max-width: 68px;
+        margin: auto;
+    }
+
+    h5 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 90px;
+    }
+
+    section{
+        margin-bottom: 305px;
+    }
+
+    section p{
+        font-size: 28px;
+        margin-bottom: 127px;
+    }
+
+    .container{
+        padding: 0 35px;
+    }
+
+    .about_us a{
+        padding: 50px 92px;
+        font-size: 27px;
+    }
+
+    .work .item{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .people .d-flex{
+        flex-direction: column;
+    }
+    .people .photo{
+        max-width: 680px;
+    }
+    .people .photo p{
+        font-size: 29px;
+    }
+
+    .people .photo h4{
+        font-size: 39px;
+    }
+
+    .post .d-flex{
+        flex-direction: column;
+    }
+
+    .post h6{
+        font-size: 28px;
+    }
+    .post h4{
+        font-size: 60px;
+    }
+    .post p{
+        font-size: 28px;
+    }
+
+    .post .info{
+        padding-bottom: 85px;
+    }
+    .post a{
+        font-size: 29px;
+        padding: 27px 95px;
+    }
+    .contact-us{
+        margin-bottom: 155px;
+    }
+    .contact-us .map{
+        height: 302px;
+    }
+    .contact-us h6{
+        font-size: 28px;
+    }
+    .contact-us p{
+        font-size: 30px;
+    }
+
+    footer p{
+        font-size: 30px;
+        text-align: start;
+    }
+    footer .d-flex{
+        flex-direction: column;
+    }
+}
