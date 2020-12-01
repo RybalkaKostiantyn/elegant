@@ -69,7 +69,11 @@ header{
     background-image: url('../images/header_01.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
+}
 
+.arrow_mobile{
+    display: none;
 }
 
 .wrapper{
@@ -203,11 +207,14 @@ section p{
 section .about_us{
     background-color: #fff;
 }
-.about_us .container{
+section{
+    padding-top: 81px;
+    margin-bottom: 82px;
+}
+
+.container{
     max-width: 760px;
     margin: auto;
-    padding-top: 81px;
-    padding-bottom: 82px;
     text-align: center;
 }
 .about_us a{
@@ -224,8 +231,6 @@ section .about_us{
 /*...WORK...*/
 section.work{
     text-align: center;
-    padding-top: 81px;
-    padding-bottom: 82px;
 }
 .work img{
     display: block;
@@ -245,12 +250,6 @@ section.work{
 }
 
 /*...PEOPLE...*/
-.people .container{
-    max-width: 760px;
-    margin: auto;
-    text-align: center;
-    padding: 81px 0 82px;
-}
 .people .photo img{
     display: block;
     width: 100%;
@@ -258,7 +257,6 @@ section.work{
 .people .photo{
     background-color: #f9f9f9;
     text-align: start;
-
 }
 .people .photo p{
     font-size: 13px;
@@ -280,13 +278,6 @@ section.work{
 }
 
 /*...POST...*/
-.post .container{
-    max-width: 770px;
-    margin: auto;
-    padding: 81px 0 82px;
-    text-align: center;
-}
-
 .post .d-flex{
     margin-top: 52px;
     margin-bottom: 84px;
@@ -301,21 +292,21 @@ section.work{
     background-color: #f9f9f9;
     padding: 43px 38px 0 39px;
 }
-.post .d-flex h6{
+.post h6{
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     color: #505d68;
     margin-bottom: 21px;
 
 }
-.post .d-flex h4{
+.post h4{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     color: #505d68;
     letter-spacing: 3px;
 
 }
-.post .d-flex p{
+.post p{
     font-size: 16px;
     color: #505d68;
     font-family: 'Open Sans', sans-serif;
@@ -335,12 +326,8 @@ section.work{
 
 
 /*...CONTACT-US...*/
-.contact-us .container{
-    max-width: 767px;
-    margin: 0 auto 80px;
-    padding-top: 81px;
+.contact-us{
     background-color: #f9f9f9;
-    text-align: center;
 }
 h3{
     color: #505d68;
@@ -358,7 +345,6 @@ h3{
 }
 .contact-us .item{
     width: 50%;
-    min-width: 220px;
     text-align: center;
 }
 .contact-us h6{
